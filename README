@@ -1,0 +1,9 @@
+To get yours running:
+
+1. git clone
+2. bundle install
+3. update @email_sender and @email_recipient with your address and git commit
+4. heroku create
+5. heroku addons:add mongohq:free
+6. heroku addons:add sendgrid:free
+7. git push heroku master
