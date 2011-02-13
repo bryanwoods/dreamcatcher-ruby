@@ -1,0 +1,10 @@
+!!!5
+%html
+  %head
+    %title Error
+  %body
+    %p== There was a JavaScript Error on line #{@error[:line_number]}
+    %p== Error Message: #{@error[:message]}
+    %p== Error occurred on page: #{@error[:location]}
+    %p== Browser Name: #{@error[:browser_name]}
+    %p== Browser Version: #{@error[:browser_version]}
